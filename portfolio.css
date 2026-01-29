@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:ital,wght@0,400;1,400&display=swap');
+
+body {
+    font-family: 'Inter', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: radial-gradient(circle at top left, #0f172a, #1e1b4b, #020617);
+    color: #1f2937;
+}
+
+header {
+    background: linear-gradient(135deg, #020617, #1e293b, #312e81);
+    color: white;
+    text-align: center;
+    padding: 50px 20px;
+}
+
+header h1 {
+    margin-bottom: 10px;
+    font-size: 40px;
+    letter-spacing: 1px;
+}
+
+header p {
+    font-size: 18px;
+    font-style: italic;
+    opacity: 0.85;
+}
+
+section {
+    background: linear-gradient(180deg, #ffffff, #f8fafc);
+    margin: 35px auto;
+    padding: 30px;
+    border-radius: 14px;
+    max-width: 900px;
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.18);
+}
+
+.about {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    background: linear-gradient(135deg, #eef2ff, #f5f3ff);
+    border-left: 8px solid #6366f1;
+}
+
+.about img {
+    width: 170px;
+    height: 170px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 6px solid #6366f1;
+}
+
+.about h2 {
+    font-size: 26px;
+    color: #312e81;
+}
+
+.about p {
+    font-weight: 600;
+    line-height: 1.7;
+    color: #1e293b;
+}
+
+h2 {
+    background: linear-gradient(135deg, #6366f1, #8b5cf6);
+
+    /* Standard (future-proof) */
+    background-clip: text;
+
+    /* Required for Chrome, Edge, Safari */
+    -webkit-background-clip: text;
+
+    color: transparent;
+}
+
+ul {
+    padding-left: 22px;
+}
+
+ul li {
+    margin-bottom: 6px;
+    font-weight: 500;
+}
+
+.social-links {
+    display: flex;
+    gap: 20px;
+}
+
+.social-links a {
+    text-decoration: none;
+    padding: 10px 20px;
+    background-color: #222;
+    color: white;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.social-links a:hover {
+    background-color: #555;
+}
+
+.resume-btn {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 14px 30px;
+    background: linear-gradient(135deg, #22c55e, #16a34a);
+    color: white;
+    text-decoration: none;
+    border-radius: 30px;
+    font-weight: bold;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.resume-btn:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.25);
+}
+
+.project-btn {
+    font-family: 'JetBrains Mono', monospace;
+    font-style: italic;
+    letter-spacing: 0.5px;
+}
+
+footer {
+    text-align: center;
+    padding: 22px;
+    background: #020617;
+    color: #c7d2fe;
+    font-size: 14px;
+}
+
